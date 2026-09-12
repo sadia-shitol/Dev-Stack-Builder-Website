@@ -1,11 +1,11 @@
 import logo from '../assets/logo-text.png'
 
-const Nav = () => {
+const Navbar = () => {
   const navItems = ['Home', 'Technologies', 'Projects', 'About', 'Contact']
   return (
-    <nav className='fixed top-0 w-full z-50 transition-all duration-300 bg-forest-50/50 backdrop-blur-md shadow-sm  flex align-middle justify-center container border-b border-[#f1f5f9] '>
-      <div className=' container mx-auto px-4 py-4 flex justify-between items-center'>
-        <div className=' flex items-center  gap-3 h-10 w-auto'>
+    <nav className='fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-md shadow-sm  flex align-middle justify-center container border-b border-[#f1f5f9] '>
+      <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
+        <div className='flex items-center gap-3 h-10 w-auto'>
           <img
             className='flex justify-center items-center'
             src={logo}
@@ -41,4 +41,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Navbar
