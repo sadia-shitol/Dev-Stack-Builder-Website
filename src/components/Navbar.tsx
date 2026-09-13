@@ -3,8 +3,8 @@ import logo from '../assets/logo-text.png'
 const Navbar = () => {
   const navItems = ['Home', 'Technologies', 'Projects', 'About', 'Contact']
   return (
-    <nav className='fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-md shadow-sm  flex align-middle justify-center container border-b border-[#f1f5f9] '>
-      <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
+    <nav className='mx-auto fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-md shadow-sm  flex pl-[376px] align-middle justify-center container border-b border-[#f1f5f9] '>
+      <div className='container mx-auto mr-4 py-4 flex flex-row justify-between items-center'>
         <div className='flex items-center gap-3 h-10 w-auto'>
           <img
             className='flex justify-center items-center'
@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-4 justify-start pr-96'>
           <button className='text-sm font-medium text-slate-600 transition hover:text-pink-600'>
             Sign In
           </button>

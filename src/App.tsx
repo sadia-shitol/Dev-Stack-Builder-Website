@@ -1,4 +1,5 @@
 import Banner from './components/Banner'
+import Bottomfooter from './components/Bottomfooter'
 import Navbar from './components/Navbar'
 import Prefooter from './components/Prefooter'
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <Prefooter />
+      <Bottomfooter />
     </>
   )
 }
