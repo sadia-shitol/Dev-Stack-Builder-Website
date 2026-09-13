@@ -1,6 +1,7 @@
 # 🚀 Dev Stack Builder
 
 ### Build Your Ideal Development Stack with Dev Stack Builder
+<img src="https://ibb.co.com/s9Z2dMKw">
 
 Explore modern technologies, discover their strengths, and build the perfect development stack for your next project.
 
