@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='flex items-center gap-4 justify-start pr-96'>
+        <div className='flex items-center gap-4 justify-start pr-80'>
           <button className='text-sm font-medium text-slate-600 transition hover:text-pink-600'>
             Sign In
           </button>
