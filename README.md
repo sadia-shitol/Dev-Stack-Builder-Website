@@ -1,32 +1,94 @@
-# React + TypeScript + Vite
+# 🚀 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Build Your Ideal Development Stack with Dev Stack Builder
 
-Currently, two official plugins are available:
+Explore modern technologies, discover their strengths, and build the perfect development stack for your next project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Build Your Ideal Development Stack with Dev Stack Builder 💻✨
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 What is Dev Stack Builder?
 
-## Expanding the Oxlint configuration
+Finding the right technologies for a project can be challenging.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+**Dev Stack Builder** makes it easier by allowing developers to explore popular technologies, view important details, and build their own technology stack in one place.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+> 💡 **Explore. Compare. Build. Create.**
+
+## ✨ Key Features
+
+- 🚀 Explore modern development technologies
+- 🎨 Browse technologies by category
+- 📖 View detailed technology information
+- ⭐ Check technology ratings
+- 🎯 View difficulty levels
+- 🏷️ Explore technology badges
+- ➕ Add technologies to **Your Stack**
+- 📦 Build your personalized development stack
+- 🎨 Clean and modern user interface
+
+---
+
+## 🛠️ Technologies Used
+
+This project was built with:
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind" />
+</p>
+
+- ⚛️ **React**
+- 🔷 **TypeScript**
+- 🎨 **Tailwind CSS**
+- 🌼 **DaisyUI**
+
+---
+
+## 📚 Explore Technology Categories
+
+The application includes technologies from different areas of development:
+
+| Category    | Description                               |
+| ----------- | ----------------------------------------- |
+| 🎨 Frontend | Technologies for building user interfaces |
+| ⚙️ Backend  | Technologies for server-side development  |
+| 🗄️ Database | Tools for storing and managing data       |
+| 💻 Language | Popular programming languages             |
+| 🎨 Styling  | Tools for designing beautiful interfaces  |
+| 🔧 Tools    | Useful tools for developers               |
+
+---
+
+## 🃏 Technology Cards
+
+Each technology is displayed inside a clean and informative card.
+
+Every card includes:
+
+- 🖼️ Technology Icon
+- 🏷️ Badge
+- 💻 Technology Name
+- 📝 Description
+- 📂 Category
+- 🎯 Difficulty Level
+- ⭐ Rating
+- ➕ **Add to Stack** button
+
+---
+
+## 📦 Build Your Stack
+
+The main interactive feature of the application allows users to build their own development stack.
+
+### How it works:
+
+```text
+1️⃣ Explore Technologies
+        ↓
+2️⃣ Choose Your Favorites
+        ↓
+3️⃣ Click "Add to Stack"
+        ↓
+4️⃣ View Your Personalized Stack 🚀
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.

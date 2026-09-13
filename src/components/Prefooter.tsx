@@ -1,7 +1,7 @@
 import logo from '../assets/logo-text.png'
 const Prefooter = () => {
   return (
-    <div className=' bg-base-200 text-base-content'>
+    <div className='pb-0.5 bg-base-200 text-base-content'>
       <footer className='container pl-80 pt-4 flex gap-24 footer sm:footer-horizontal border-t-4 border-[#f1f5f9]'>
         <aside>
           <img src={logo} alt='' />
