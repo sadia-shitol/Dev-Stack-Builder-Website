@@ -32,7 +32,7 @@ const Navbar = () => {
           <button className='text-sm font-medium text-slate-600 transition hover:text-pink-600'>
             Sign In
           </button>
-          <button className='rounded-full bg-gradient-to-r from-pink-600 to-purple-600  px-6 py-2.5  text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:shadow-lg"'>
+          <button className='rounded-full bg-gradient-to-r from-pink-600 to-purple-600  px-6 py-2.5  text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:shadow-lg'>
             Sign Up
           </button>
         </div>
